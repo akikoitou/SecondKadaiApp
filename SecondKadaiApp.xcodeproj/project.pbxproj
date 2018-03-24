@@ -12,6 +12,7 @@
 		848F5D62205CACA600A1FFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F5D60205CACA600A1FFEA /* Main.storyboard */; };
 		848F5D64205CACA600A1FFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F5D63205CACA600A1FFEA /* Assets.xcassets */; };
 		848F5D67205CACA600A1FFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F5D65205CACA600A1FFEA /* LaunchScreen.storyboard */; };
+		848F5D6F205CAEF500A1FFEA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F5D6E205CAEF500A1FFEA /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		848F5D63205CACA600A1FFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848F5D66205CACA600A1FFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848F5D68205CACA600A1FFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F5D6E205CAEF500A1FFEA /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				848F5D63205CACA600A1FFEA /* Assets.xcassets */,
 				848F5D65205CACA600A1FFEA /* LaunchScreen.storyboard */,
 				848F5D68205CACA600A1FFEA /* Info.plist */,
+				848F5D6E205CAEF500A1FFEA /* ResultViewController.swift */,
 			);
 			path = SecondKadaiApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				848F5D5F205CACA600A1FFEA /* ViewController.swift in Sources */,
 				848F5D5D205CACA600A1FFEA /* AppDelegate.swift in Sources */,
+				848F5D6F205CAEF500A1FFEA /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HG4259749;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ai.ueo.SecondKadaiApp;
@@ -289,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HG4259749;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ai.ueo.SecondKadaiApp;
